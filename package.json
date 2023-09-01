@@ -1,0 +1,23 @@
+{
+  "name": "afice-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nemimj/Afice-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nemimj/Afice-Clone/issues"
+  },
+  "homepage": "https://github.com/nemimj/Afice-Clone#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
