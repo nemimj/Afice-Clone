@@ -60,3 +60,28 @@ img,video{
     width: $max-width;
     margin: auto;
 }
+
+.py{
+    &-1{
+        padding: 1rem 0;
+    }
+    &-2{
+        padding: 2rem 0;
+    }
+    &-3{
+        padding: 3rem 0;
+    }
+}
+
+.text-center{
+    text-align: center;
+}
+
+.lead-heading{
+    color: $middle-color;
+    font-size: 3rem;
+}
+
+.lead-para{
+    color: $box-color;
+}
