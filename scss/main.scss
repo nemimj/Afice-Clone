@@ -1,3 +1,43 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
+@import 'config';
+@import 'utility';
+
+
+.header{
+    display: grid;
+    
+    grid-template-columns: repeat(2,1fr);
+    background: url('../img/mian.png') no-repeat center center/cover;
+   
+   &-video{
+    width: 80%;
+    margin: auto;
+   }
+   
+    &-content{
+        display: grid;
+        place-content: center;
+        height: 60vh;
+        text-align: center;
+        color: white;
+    }
+}
+
+#nav{
+    padding: 1rem;
+    top: 0;
+    bottom: 0;
+    position: sticky;
+    display: grid;
+   grid-template-columns: repeat(2,1fr);
+
+  & img{
+    width: 100px;
+  }
+
+  .nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.3rem;
+  }
 }
