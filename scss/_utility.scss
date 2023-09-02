@@ -80,6 +80,7 @@ img,video{
 .lead-heading{
     color: $middle-color;
     font-size: 3rem;
+    text-transform: uppercase;
 }
 
 .lead-para{
@@ -88,4 +89,9 @@ img,video{
 
 .highlight{
     color: $main-color;
+}
+
+.date{
+    color: $dark-color;
+    margin-bottom: 1rem;
 }

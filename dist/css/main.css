@@ -55,13 +55,18 @@ img, video {
 
 .lead-heading {
   color: #112f6a;
-  font-size: 3rem; }
+  font-size: 3rem;
+  text-transform: uppercase; }
 
 .lead-para {
   color: #79c8f0; }
 
 .highlight {
   color: #fad100; }
+
+.date {
+  color: #333;
+  margin-bottom: 1rem; }
 
 .header {
   display: grid;
@@ -76,6 +81,9 @@ img, video {
     height: 60vh;
     text-align: center;
     color: white; }
+    .header-content h1 {
+      font-size: 2.7rem;
+      text-transform: uppercase; }
 
 #nav {
   padding: 1rem;
@@ -169,5 +177,36 @@ img, video {
       #home-growing .container .playbutton-info {
         color: white; }
         #home-growing .container .playbutton-info h3 {
-          font-size: 2.5rem;
-          text-transform: uppercase; }
+          font-size: 2.2rem;
+          text-transform: uppercase;
+          letter-spacing: 2px; }
+
+#home-insights .container {
+  padding: 3rem 1rem; }
+  #home-insights .container .boxes {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem; }
+    #home-insights .container .boxes .box {
+      box-shadow: 0 0 25px #00000012;
+      border-radius: 0 0 10px 10px;
+      background-color: #fffcfc; }
+      #home-insights .container .boxes .box-img {
+        position: relative;
+        height: 250px; }
+        #home-insights .container .boxes .box-img img {
+          border-radius: 10px 10px 0 0;
+          height: 100%; }
+        #home-insights .container .boxes .box-img .arrow {
+          position: absolute;
+          bottom: -10px;
+          left: -14px;
+          border-radius: 5px; }
+          #home-insights .container .boxes .box-img .arrow img {
+            width: 100px; }
+      #home-insights .container .boxes .box-info {
+        padding: 1rem; }
+        #home-insights .container .boxes .box-info a {
+          font-size: 1.3rem;
+          margin-bottom: 0.5rem; }

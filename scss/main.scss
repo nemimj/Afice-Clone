@@ -19,6 +19,10 @@
         height: 60vh;
         text-align: center;
         color: white;
+        h1{
+          font-size: 2.7rem;
+          text-transform: uppercase;
+        }
     }
 }
 
@@ -152,14 +156,61 @@
           &-info{
             color: white;
             h3{
-              font-size: 2.5rem;
+              font-size: 2.2rem;
               text-transform: uppercase;
-       
+              letter-spacing: 2px;
             }
           }
         }
-
-        
       }
+  }
+
+  &-insights{
+    .container{
+      padding: 3rem 1rem;
+
+      .boxes{
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 3rem;
+
+        .box{
+          box-shadow: 0 0 25px #00000012;
+          border-radius: 0 0 10px 10px;
+          background-color: #fffcfc;
+
+          &-img{
+            position: relative;
+            height: 250px;
+            img{
+              border-radius: 10px 10px 0 0;
+              height: 100%;
+            }
+            .arrow{
+              position: absolute;
+              bottom: -10px;
+              left: -14px;
+              border-radius: 5px;
+
+              img{
+                width: 100px;
+              }
+          
+            }
+          }
+
+          &-info{
+            padding: 1rem;
+
+            a{
+              font-size: 1.3rem;
+              margin-bottom: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+
   }
 }
