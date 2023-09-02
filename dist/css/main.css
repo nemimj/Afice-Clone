@@ -210,3 +210,32 @@ img, video {
         #home-insights .container .boxes .box-info a {
           font-size: 1.3rem;
           margin-bottom: 0.5rem; }
+
+#home-know-more {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center; }
+  #home-know-more .know {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-self: end; }
+    #home-know-more .know .btn-main {
+      color: white;
+      border-radius: 0;
+      padding: 0.5rem;
+      width: 150px;
+      text-align: center; }
+    #home-know-more .know ul {
+      display: flex;
+      gap: 2rem; }
+      #home-know-more .know ul i {
+        border: 2px solid #112f6a;
+        padding: 0.3rem;
+        border-radius: 5px;
+        font-size: 24px; }
+  #home-know-more .yellow-line {
+    width: 450px;
+    height: 20px;
+    background-color: #fad100;
+    justify-self: end; }

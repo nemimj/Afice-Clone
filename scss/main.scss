@@ -47,9 +47,6 @@
 }
 
 
-%box-shared{
-
-}
 
 
 
@@ -212,5 +209,45 @@
       }
     }
 
+  }
+
+  &-know-more{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    .know{
+      display: flex;
+      gap: 2rem;
+      align-items: center;
+      justify-self: end;
+      .btn-main{
+        color: white;
+        border-radius: 0;
+        padding: 0.5rem;
+        width: 150px;
+        text-align: center;
+      }
+      ul{
+        display: flex;
+        gap: 2rem;
+
+        i{
+          border: 2px solid $middle-color;
+          padding: 0.3rem;
+          border-radius: 5px;
+          font-size: 24px;
+        }
+      }
+
+     
+    }
+
+    .yellow-line{
+      width: 450px;
+      height: 20px;
+      background-color: #fad100;
+      justify-self: end;
+  
+    }
   }
 }
