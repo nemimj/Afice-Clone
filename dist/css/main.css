@@ -60,6 +60,9 @@ img, video {
 .lead-para {
   color: #79c8f0; }
 
+.highlight {
+  color: #fad100; }
+
 .header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -143,3 +146,28 @@ img, video {
       color: #112f6a; }
   #home-wealth .boxes .box:hover {
     transform: scale(1.2); }
+
+#home-growing {
+  padding: 3rem 1rem;
+  background-color: #112f6a; }
+  #home-growing .container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 3rem; }
+    #home-growing .container .playbutton {
+      border-radius: 10px;
+      background-color: #fad100;
+      text-align: center;
+      height: 250px;
+      display: flex;
+      justify-content: center; }
+      #home-growing .container .playbutton img {
+        display: inline-block;
+        margin: auto;
+        width: 80px; }
+      #home-growing .container .playbutton-info {
+        color: white; }
+        #home-growing .container .playbutton-info h3 {
+          font-size: 2.5rem;
+          text-transform: uppercase; }
