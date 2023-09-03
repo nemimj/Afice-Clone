@@ -260,6 +260,7 @@
   &-contact{
     background: transparent radial-gradient(closest-side at 19% 45%,#112f6a 0,#0a1c40 100%) 0 0 no-repeat padding-box;
     padding-bottom: 3rem;
+    margin-top: 2rem;
     .container{
       display: grid;
       grid-template-columns: repeat(2,1fr);
@@ -301,6 +302,7 @@
 }
 
 #footer{
+  margin-top: 2rem;
   .container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
