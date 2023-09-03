@@ -241,3 +241,32 @@ img, video {
     height: 20px;
     background-color: #fad100;
     justify-self: end; }
+
+#home-contact {
+  background: transparent radial-gradient(closest-side at 19% 45%, #112f6a 0, #0a1c40 100%) 0 0 no-repeat padding-box;
+  padding-bottom: 3rem; }
+  #home-contact .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3rem; }
+    #home-contact .container .contact-box {
+      width: 400px;
+      background-color: white;
+      padding: 1rem 1.3rem; }
+      #home-contact .container .contact-box div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 1rem; }
+        #home-contact .container .contact-box div label {
+          color: #112f6a;
+          font-weight: bold; }
+        #home-contact .container .contact-box div input {
+          padding: 0.5rem; }
+      #home-contact .container .contact-box .btn-middle {
+        width: 90%;
+        text-align: center;
+        font-size: 1rem; }
+    #home-contact .container .contact-info {
+      padding-top: 15%;
+      color: white;
+      font-size: 1.2rem; }
