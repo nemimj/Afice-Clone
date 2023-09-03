@@ -57,7 +57,7 @@ img,video{
 
 
 .container{
-    width: $max-width;
+    max-width: $max-width;
     margin: auto;
 }
 

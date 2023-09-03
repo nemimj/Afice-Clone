@@ -31,8 +31,8 @@
     top: 0;
     bottom: 0;
     position: sticky;
-    display: grid;
-   grid-template-columns: repeat(2,1fr);
+    display: flex;
+   justify-content: space-between;
 
   & img{
     width: 100px;
@@ -346,3 +346,6 @@
     }
   }
 }
+
+
+@import 'media';

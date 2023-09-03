@@ -1,0 +1,79 @@
+@media (max-width:500px) {
+
+    .btn-middle {
+        width:150px
+    }
+
+    .lead-heading{
+        font-size: 1.5rem;
+    }
+    #nav .nav-items{
+        display: none;
+    }
+
+    .header-content h1{
+        font-size: 1.5rem;
+    }
+    #home-wealth .boxes{
+
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home-growing .container .playbutton-info h3{
+            font-size: 1.5rem;
+    }
+
+    #home-insights .container .boxes{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    #home-contact .container{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 1rem;
+    }
+    #footer .container{
+    grid-template-columns: repeat(1, 1fr);
+    }
+
+    #home-contact .container .contact-box{
+        width: 100%;
+    }
+
+    .header{
+            grid-template-columns: repeat(1,1fr);
+        &-video{
+            width: 100%;
+        }
+
+
+        &-content{
+            height: 45vh;
+        }
+    }
+
+    .yellow-line{display: none;}
+
+    #home-know-more .know{
+        display: block;
+    margin-bottom: 1rem;
+    text-align: center;
+    }
+    #home-know-more .know .btn-main{
+        margin-bottom: 1rem;
+    }
+
+    #home-growing .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #footer .container .subscribe{
+        justify-self: unset;
+        align-self: unset;
+    }
+}

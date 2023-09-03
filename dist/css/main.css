@@ -38,7 +38,7 @@ img, video {
   margin: 1.5rem auto 0; }
 
 .container {
-  width: 1320px;
+  max-width: 1320px;
   margin: auto; }
 
 .py-1 {
@@ -90,8 +90,8 @@ img, video {
   top: 0;
   bottom: 0;
   position: sticky;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); }
+  display: flex;
+  justify-content: space-between; }
   #nav img {
     width: 100px; }
   #nav .nav-items {
@@ -309,3 +309,47 @@ img, video {
         text-align: center;
         border: 2px solid #f2f2f2;
         border-radius: 7px; }
+
+@media (max-width: 500px) {
+  .btn-middle {
+    width: 150px; }
+  .lead-heading {
+    font-size: 1.5rem; }
+  #nav .nav-items {
+    display: none; }
+  .header-content h1 {
+    font-size: 1.5rem; }
+  #home-wealth .boxes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  #home-growing .container .playbutton-info h3 {
+    font-size: 1.5rem; }
+  #home-insights .container .boxes {
+    grid-template-columns: repeat(1, 1fr); }
+  #home-contact .container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 1rem; }
+  #footer .container {
+    grid-template-columns: repeat(1, 1fr); }
+  #home-contact .container .contact-box {
+    width: 100%; }
+  .header {
+    grid-template-columns: repeat(1, 1fr); }
+    .header-video {
+      width: 100%; }
+    .header-content {
+      height: 45vh; }
+  .yellow-line {
+    display: none; }
+  #home-know-more .know {
+    display: block;
+    margin-bottom: 1rem;
+    text-align: center; }
+  #home-know-more .know .btn-main {
+    margin-bottom: 1rem; }
+  #home-growing .container {
+    grid-template-columns: repeat(1, 1fr); } }
