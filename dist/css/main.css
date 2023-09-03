@@ -11,7 +11,8 @@ ul {
   list-style: none; }
 
 a {
-  color: #112f6a; }
+  color: #112f6a;
+  text-decoration: none; }
 
 img, video {
   width: 100%; }
@@ -352,4 +353,7 @@ img, video {
   #home-know-more .know .btn-main {
     margin-bottom: 1rem; }
   #home-growing .container {
-    grid-template-columns: repeat(1, 1fr); } }
+    grid-template-columns: repeat(1, 1fr); }
+  #footer .container .subscribe {
+    justify-self: unset;
+    align-self: unset; } }
