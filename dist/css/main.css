@@ -199,7 +199,11 @@ img, video {
         height: 250px; }
         #home-insights .container .boxes .box-img img {
           border-radius: 10px 10px 0 0;
-          height: 100%; }
+          height: 100%;
+          opacity: 85%;
+          transition: all 0.5s ease-in-out; }
+        #home-insights .container .boxes .box-img img:hover {
+          opacity: 100%; }
         #home-insights .container .boxes .box-img .arrow {
           position: absolute;
           bottom: -10px;
@@ -270,3 +274,35 @@ img, video {
       padding-top: 15%;
       color: white;
       font-size: 1.2rem; }
+
+#footer .container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+  place-items: center; }
+  #footer .container .footer-heading {
+    color: #fad100; }
+  #footer .container img {
+    justify-self: center; }
+  #footer .container li {
+    margin: 0.5rem 0; }
+    #footer .container li a {
+      color: #c1c6d0; }
+  #footer .container .subscribe {
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-self: flex-start;
+    align-self: flex-start; }
+    #footer .container .subscribe input {
+      padding: 0.5rem;
+      width: 270px; }
+    #footer .container .subscribe .btn-main {
+      color: white;
+      text-transform: uppercase;
+      width: 90%;
+      font-size: 0.9rem;
+      text-align: center;
+      border: 2px solid #f2f2f2;
+      border-radius: 7px; }

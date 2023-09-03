@@ -180,9 +180,15 @@
           &-img{
             position: relative;
             height: 250px;
+
             img{
               border-radius: 10px 10px 0 0;
               height: 100%;
+              opacity: 85%;
+              transition: all 0.5s ease-in-out;
+            }
+            img:hover{
+              opacity: 100%;
             }
             .arrow{
               position: absolute;
@@ -289,6 +295,51 @@
             color: white;
             font-size: 1.2rem;
           }
+      }
+    }
+  }
+}
+
+#footer{
+  .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 2rem;
+  place-items: center;
+  .footer-heading{
+    color: $main-color;
+  }
+  
+  img{
+    justify-self: center;
+  }
+  li{
+    margin: 0.5rem 0;
+    a{
+        color: #c1c6d0;
+
+      }
+    }
+
+    .subscribe{
+      justify-self:flex-start;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-self: flex-start;
+      align-self: flex-start;
+      input{
+        padding: 0.5rem;
+        width: 270px;
+      }
+      .btn-main{
+        color: white;
+        text-transform: uppercase;
+        width: 90%;
+        font-size: 0.9rem;
+        text-align: center;
+        border: 2px solid #f2f2f2;
+        border-radius: 7px;
       }
     }
   }
