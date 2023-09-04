@@ -299,6 +299,71 @@
       }
     }
   }
+
+  &-projects{
+    margin-top: 3rem;
+    .main{
+      display: grid;
+     grid-template-columns: repeat(3,1fr);
+      height: 100%;
+     &-left{
+      width: 40rem;
+      height: 30rem;
+      border-top-right-radius: 4.5rem;
+      border-bottom-right-radius: 4.5rem;
+      padding: 10rem 7rem;
+        background-color: $middle-color;
+        color: white;
+        .highlight{
+          font-size: 2rem;
+        }
+     }
+
+
+     &-middle{
+      margin: 0 5rem;
+      .boxes{
+        height: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 2rem;
+        
+        &-3{
+          display: grid;
+          grid-gap: 1rem;
+        }
+
+        &-2{
+          display: grid;
+          place-content: center;
+          grid-gap: 1rem;
+        }
+        .box{
+          background-color: $middle-color;
+          color: white;
+          height: 200px;
+          width: 200px;
+          padding: 2rem;
+          text-align: center;
+
+          .highlight{
+            font-size: 2.8rem;
+          }
+        }
+      }
+     }
+
+     &-right{
+      width: 15rem;
+      height: 30rem;
+      border-top-left-radius: 4.5rem;
+      border-bottom-left-radius: 4.5rem;
+      background-color: $main-color;
+      justify-self:end;
+     }
+    }
+  }
 }
 
 #footer{

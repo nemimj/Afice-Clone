@@ -277,6 +277,54 @@ img, video {
       color: white;
       font-size: 1.2rem; }
 
+#home-projects {
+  margin-top: 3rem; }
+  #home-projects .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100%; }
+    #home-projects .main-left {
+      width: 40rem;
+      height: 30rem;
+      border-top-right-radius: 4.5rem;
+      border-bottom-right-radius: 4.5rem;
+      padding: 10rem 7rem;
+      background-color: #112f6a;
+      color: white; }
+      #home-projects .main-left .highlight {
+        font-size: 2rem; }
+    #home-projects .main-middle {
+      margin: 0 5rem; }
+      #home-projects .main-middle .boxes {
+        height: 100%;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 2rem; }
+        #home-projects .main-middle .boxes-3 {
+          display: grid;
+          grid-gap: 1rem; }
+        #home-projects .main-middle .boxes-2 {
+          display: grid;
+          place-content: center;
+          grid-gap: 1rem; }
+        #home-projects .main-middle .boxes .box {
+          background-color: #112f6a;
+          color: white;
+          height: 200px;
+          width: 200px;
+          padding: 2rem;
+          text-align: center; }
+          #home-projects .main-middle .boxes .box .highlight {
+            font-size: 2.8rem; }
+    #home-projects .main-right {
+      width: 15rem;
+      height: 30rem;
+      border-top-left-radius: 4.5rem;
+      border-bottom-left-radius: 4.5rem;
+      background-color: #fad100;
+      justify-self: end; }
+
 #footer {
   margin-top: 2rem; }
   #footer .container {
